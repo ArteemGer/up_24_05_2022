@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Oswald&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1110px;
+    height: 520px;
+}
+.first_screen{
+    background-image: url(/images/Rectangle\ 2.png);
+    height: 800px;
+    width: 1920px;
+}
+.menu__first_screen{
+    margin-top: 20px;
+    display: flex;
+    list-style-type: none;
+    margin-left: 555px;
+}
+.menu_item{
+    font-family: "Open Sans";
+    font-size: 14px;
+    color: white;
+    margin-left: 28px;
+}
+.top_menu{
+    padding-top: 11px;
+    padding-bottom: 11px;
+    display: flex;
+    background-color: rgba(0, 91, 193, 0.6)
+}
+.logo{
+    max-width: 140px;
+    margin-left: 40px;
+}
+.first_screen_title{
+    color: white;
+    font-family: "Oswald";
+    font-weight: lighter;
+    font-size: 48px;
+    margin-bottom: 40px;
+}
+.first_screen_text{
+    font-size: 16px;
+    color: white;
+    font-family: "open sans";
+    margin-bottom: 40px;
+}
+.first_screen_button{
+    background-color: rgba(0, 91, 193, 0);
+    width: 160px;
+    height: 51px;
+    border: 2px solid white;
+    color: white;
+}
+.first_screen_content{
+    margin-left: 595px;
+    margin-top: 202px;
+    z-index: 1;
+}
+.first_screen_column{
+    background-color: rgba(0, 91, 193, 0.6);
+    height: 720px;
+    width: 444px;
+    position:absolute;
+    top: 80px;
+    left: 405px;
+    z-index: 2;
+}
