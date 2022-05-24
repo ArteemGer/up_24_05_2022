@@ -3,10 +3,13 @@
     margin: 0;
     padding: 0;
 }
+.catalog_items a{
+    text-decoration: none;
+    color: black;
+}
 .container{
     margin: auto;
     width: 1110px;
-    height: 520px;
 }
 .first_screen{
     background-image: url(/images/Rectangle\ 2.png);
@@ -53,7 +56,10 @@
     width: 160px;
     height: 51px;
     border: 2px solid white;
+}
+.first_screen_button a{
     color: white;
+    text-decoration: none;
 }
 .first_screen_content{
     position: absolute;
@@ -128,4 +134,45 @@
     font-size: 14px;
     margin-left: 25px;
     margin-top: 14px;
+}
+.footer{
+    margin-top: 100px;
+    height: 255px;
+    background-color: rgba(0, 91, 193, 1);
+}
+.catalog_top{
+    margin-bottom: 70px;
+    display: flex;
+    align-items: center;
+}
+.catalog_logo{
+    margin-right: 40px;
+}
+.catalog_title{
+    font-family: "oswald";
+    font-weight: lighter;
+}
+.catalog_items{
+    width: 211px;
+    height: 41px;
+    display: flex;
+    margin: auto;
+}
+.item{
+    font-family: "oswald";
+    font-size: 24px;
+    margin-right: 47px;
+}
+.item:hover{
+    color: rgba(0, 91, 193, 1);
+    text-decoration: underline;
+}
+.catalog_block img{
+    width: 350px;
+    height: 300px;
+}
+.catelog_mid{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
 }
