@@ -241,6 +241,7 @@
     max-height: 175px;
 }
 .rent_text p{
+    color: rgba(52, 52, 52, 1);
     font-size: 18px;
     font-family: "open sans";
 }
@@ -291,9 +292,9 @@
     margin-top: 30px;
     font-family: "open sans";
 }
-
 .rent_list li{
-    margin-top: 18px;
+    margin-top: 14px;
+    color: rgba(52, 52, 52, 1)
 }
 .news_top{
     margin-top: 108px;
@@ -395,6 +396,7 @@
     text-transform: uppercase;
 }
 .first_mid{
+    color: rgba(52, 52, 52, 1);
     font-family: "open sans";
     font-size: 14px;
 }
@@ -409,6 +411,7 @@
     margin-left: 50px;
 }
 .news_mid_second p{
+    color: rgba(52, 52, 52, 1);
     margin-top: 20px;
     font-size: 14px;
     font-family: "open sans";
