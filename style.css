@@ -218,3 +218,71 @@
     font-size: 18px;
     color: white;
 }
+.rent_top{
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+}
+.rent_mid{
+    display: flex;
+    justify-content: space-between;
+}
+.rent_text{
+    margin-top: 150px;
+    max-width: 350px;
+    max-height: 175px;
+}
+.rent_text p{
+    font-size: 18px;
+    font-family: "open sans";
+}
+.rent_item{
+    margin-top: 40px;
+    border: 3px solid rgba(0, 91, 193, 1);
+    width: 665px;
+    height: 394px;
+}
+.rent_item_top{
+    display: flex;
+}
+.rent_item_top h2{
+    margin-top: 42px;
+    margin-left: 30px;
+    text-transform: uppercase;
+    font-family: "oswald";
+    font-weight: lighter;
+    font-size: 18px;
+}
+.rent_button1, .rent_button2{
+    background-color: rgba(0, 91, 193, 0);
+    border: 0px;
+    margin-top: 30px;
+}
+.rent_buttons{
+    margin-left: 100px;
+}
+.rent_item_mid{
+    display: flex;
+}
+.rent_item_mid img{
+    max-width: 255px;
+    max-height: 250px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.rent_item_text h3{
+    font-family: "Oswald";
+    font-weight: lighter;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.rent_list{
+    max-width: 330px;
+    max-height: 152px;
+    margin-top: 30px;
+    font-family: "open sans";
+}
+
+.rent_list li{
+    margin-top: 18px;
+}
