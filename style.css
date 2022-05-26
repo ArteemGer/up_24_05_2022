@@ -30,7 +30,7 @@
     margin-top: 20px;
     display: flex;
     list-style-type: none;
-    margin-left: 555px;
+    margin-left: 28%;
 }
 .menu_item{
     font-family: "Open Sans";
@@ -89,11 +89,13 @@
     align-items: center;
 }
 .slider_button1{
+    cursor: pointer;
     margin-left: auto;
     border: 0px;
     background-color: rgba(0, 91, 193, 0);
 }
 .slider_button2{
+    cursor: pointer;
     border: 0px;
     background-color: rgba(0, 91, 193, 0);
 }
@@ -179,6 +181,10 @@
     width: 350px;
     height: 300px;
 }
+.catalog_block{
+    width: 350px;
+    height: 300px;
+}
 .catelog_mid{
     display: flex;
     justify-content: space-between;
@@ -220,6 +226,7 @@
     color: white;
 }
 .rent_top{
+    margin-top: 150px;
     display: flex;
     align-items: center;
     text-transform: uppercase;
