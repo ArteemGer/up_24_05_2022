@@ -289,9 +289,11 @@
     margin-top: 18px;
 }
 .news_top{
+    margin-top: 108px;
     display: flex;
     align-items: center;
     text-transform: uppercase;
+    margin-bottom: 70px;
 }
 .footer_container{
     margin-right: auto;
@@ -340,5 +342,85 @@
 .footer_bottom p{
     color: white;
     font-family: "open sans";
+}
+.news button{
+    cursor: pointer;
+    margin-left: 660px;
+    height: 51px;
+    width: 190px;
+    background-color: rgba(0, 91, 193, 1);
+    border: 0px;
+    color: white;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-family: "open sans";
+}
+.news_mid{
+    display: flex;
+}
+.news_mid_first{
+    display: flex;
+    width: 540px;
+    height: 252px;
+}
+.news_mid_first img{
+    width: 255px;
+    height: 242px;
+}
+.news_content{
+    margin-left: 30px;
+}
+.first_top{
+    display: flex;
+    align-items: center;
+    margin-bottom: 42px;
+    font-size: 14px;
+}
+.first_top p{
+    color: rgba(151, 151, 151, 1);
+    font-family: "open sans";
+    margin-left: 60px;
+}
+.first_top h2{
+    font-size: 18px;
+    font-family: "oswald";
+    font-weight: lighter;
+    text-transform: uppercase;
+}
+.first_mid{
+    font-family: "open sans";
+    font-size: 14px;
+}
+.first_bottom p{
+    text-decoration: underline;
+    color: black;
+    margin-top: 14px;
+}
+.news_mid_second{
+    width: 235px;
+    height: 242px;
+    margin-left: 50px;
+}
+.news_mid_second p{
+    margin-top: 20px;
+    font-size: 14px;
+    font-family: "open sans";
 
+}
+.news_mid_second h3{
+    font-size: 18px;
+    font-family: "oswald";
+    font-weight: lighter;
+    text-transform: uppercase;
+
+}
+.second_bottom img{
+    height: 115px;
+    width: 128px;
+    margin-right: 25px;
+}
+.second_bottom{
+    margin-top: 20px;
+    display: flex;
+    align-items: flex-end;
 }
