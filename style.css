@@ -16,7 +16,8 @@
     color: white;
 }
 .container{
-    margin: auto;
+    margin-right: auto;
+    margin-left: auto;
     width: 1110px;
 }
 .first_screen{
@@ -254,6 +255,7 @@
     font-size: 18px;
 }
 .rent_button1, .rent_button2{
+    cursor: pointer;
     background-color: rgba(0, 91, 193, 0);
     border: 0px;
     margin-top: 30px;
@@ -285,4 +287,58 @@
 
 .rent_list li{
     margin-top: 18px;
+}
+.news_top{
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+}
+.footer_container{
+    margin-right: auto;
+    margin-left: auto;
+    width: 1110px;
+    padding-top: 40px;
+}
+.footer_top{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+.footer_top h3{
+    font-family: "oswald";
+    color: white;
+    font-weight: lighter;
+    font-size: 18px;
+}
+.footer_top p,a{
+    text-decoration: none;
+    font-family: "open sans";
+    color: white;
+    font-size: 14px;
+}
+.footer_mid{
+    display: flex;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.footer_mid ul{
+    margin-right: 140px;
+    line-height: 24px;
+    list-style-type: none;
+}
+.footer_mid a{
+    text-decoration: none;
+    font-size: 14px;
+    font-family: "open sans";
+    color: white;
+}
+.footer_bottom{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+.footer_bottom p{
+    color: white;
+    font-family: "open sans";
+
 }
