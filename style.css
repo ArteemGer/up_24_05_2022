@@ -183,3 +183,38 @@
     justify-content: space-between;
     margin-top: 50px;
 }
+.catalog_text{
+    position: relative;
+    background-color: rgba(0, 91, 193, 1);
+    height: 86px;
+    width: 265px;
+    left: 83px;
+    bottom: 110px;
+}
+.first_text{
+    text-transform:uppercase;
+    padding-top: 15px;
+    padding-left: 21px;
+    font-family: "oswald";
+    font-weight: lighter;
+    font-size: 18px;
+    color: white;
+}
+.second_text{
+    text-transform:uppercase;
+    padding-top: 30px;
+    padding-left: 21px;
+    font-family: "oswald";
+    font-weight: lighter;
+    font-size: 18px;
+    color: white;
+}
+.third_text{
+    text-transform:uppercase;
+    padding-top: 30px;
+    padding-left: 21px;
+    font-family: "oswald";
+    font-weight: lighter;
+    font-size: 18px;
+    color: white;
+}
