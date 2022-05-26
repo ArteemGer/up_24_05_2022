@@ -7,14 +7,23 @@
     text-decoration: none;
     color: black;
 }
+.slider_mid a{
+    text-decoration: none;
+    color: black;
+}
+.menu_item a{
+    text-decoration: none;
+    color: white;
+}
 .container{
     margin: auto;
     width: 1110px;
 }
 .first_screen{
+    margin: auto;
     background-image: url(images/фон.png);
     height: 800px;
-    width: 1920px;
+    max-width: 1920px;
 }
 .menu__first_screen{
     margin-top: 20px;
@@ -65,7 +74,6 @@
     position: absolute;
     margin-left: 595px;
     margin-top: 202px;
-    z-index: 1;
 }
 .first_screen_column{
     background-color: rgba(0, 91, 193, 0.6);
@@ -73,8 +81,7 @@
     width: 444px;
     position:absolute;
     top: 80px;
-    left: 405px;
-    z-index: 1;
+    margin-left: 405px;
 }
 .slider_top{
     display: flex;
