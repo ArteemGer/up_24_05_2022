@@ -18,13 +18,13 @@
 .container{
     margin-right: auto;
     margin-left: auto;
-    width: 1110px;
+    max-width: 1110px;
 }
 .first_screen{
     margin: auto;
     background-image: url(images/фон.png);
     height: 800px;
-    max-width: 1920px;
+    background-size: cover;
 }
 .menu__first_screen{
     margin-top: 20px;
@@ -73,7 +73,7 @@
 }
 .first_screen_content{
     position: absolute;
-    margin-left: 595px;
+    margin-left: 30%;
     margin-top: 202px;
 }
 .first_screen_column{
@@ -82,7 +82,7 @@
     width: 444px;
     position:absolute;
     top: 80px;
-    margin-left: 405px;
+    margin-left: 20%;
 }
 .slider_top{
     display: flex;
@@ -185,7 +185,7 @@
     width: 350px;
     height: 300px;
 }
-.catelog_mid{
+.catalog_mid{
     display: flex;
     justify-content: space-between;
     margin-top: 50px;
